@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.appContainer {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coinContainer {
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  padding-top: 35px;
+  width: 30%;
+}
+
+.heading {
+  color: #a35200;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  align-self: center;
+}
+
+.description {
+  color: #334155;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  align-self: center;
+  margin-top: 0px;
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.button {
+  background-color: #e2a139;
+  color: #a35200;
+  font-size: 20px;
+  font-family: 'Roboto';
+  border: 0px solid transparent;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.totalContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.info {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
